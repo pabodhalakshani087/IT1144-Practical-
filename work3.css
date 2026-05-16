@@ -3,6 +3,9 @@
 body{
     background: #1e3019;
     background:url('work3.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 .main{
