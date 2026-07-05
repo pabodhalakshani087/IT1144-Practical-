@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <title>work 1</title>
+        <style>
+          body{
+            background: url('img.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+          }
+
+          .navigation h1{
+            color:white;
+            padding-left: 10px;;
+          }
+
+          .navigation{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+          }
+
+          .navigation ul{
+            display:flex;
+            gap:20px;
+            list-style: none;
+          }
+
+          .navigation ul li a{
+            color:white;
+            text-decoration: none;
+            padding-right: 20px;;
+          }
+
+          .main{
+            text-align: center;
+            color:white;
+            padding-top: 120px;
+          }
+
+          .main h2{
+            font-size: 40px;
+            animation:slideDown 2s ease;
+          }
+
+          @keyframes slideDown{
+            from{
+                opacity: 0;
+                transform:translateY(-100px);
+            }
+
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+          }
+
+          .btn{
+             padding:20px;   
+          }
+
+          .btn1{
+            padding:10px;
+            border-radius:30px;
+            background: none;
+            border: 2px solid white;
+            color:white;
+            width:120px;
+            margin:10px;
+          }
+
+          .btn1:hover{
+            background: white;
+            color:black;
+          }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="navigation">
+            <h1>Your Logo</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <h2>WELCOME</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+           <h4>Do You Wanna Join Us?</h4>
+
+           <div class="btn">
+            <button type="submit" class="btn1">Get Started</button>
+            <button type="submit" class="btn1">Learn More</button>
+           </div>
+        </div>
+    </body>
+</html>
